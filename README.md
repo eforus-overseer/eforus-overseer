@@ -1,7 +1,11 @@
-### Hi there 👋
+<div align="center">
+
+<img src="welcome_efis_github.gif" alt="Welcome!" width="400"/>
+
+</div>
 
 <!--
-**eforus-overseer-Pecani/eforus-overseer-Pecani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**eforus-overseer-Pecani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
