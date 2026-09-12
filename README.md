@@ -1,8 +1,8 @@
-<!-- <div align="center">
+<div align="center">
 
 <img src="welcome_efis_github.gif" alt="Welcome!" width="400"/>
 
-</div> -->
+</div>
 
 <!--
 **Efi-Pecani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -20,8 +20,12 @@ Here are some ideas to get you started:
 -->
 
 
-# 💫 About Me:
-Worked with Machine Learning before it was known as "Cool AI stuff"<br>I'm a Researcher that likes to POC & prototype stuff<br>Cybersecurity excites me!
+# Greetings 🖖 🥸 I'm Efi!
+I Worked with Machine Learning before it was known as just:<br>
+"Cool AI stuff"<br>
+I'm a Researcher that likes to POC & prototype stuff<br>
+A new tool or a method even if it breaks production
+Also- Cybersecurity excites me!
 
 
 ## 🌐 Socials:
