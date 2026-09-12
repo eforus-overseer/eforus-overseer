@@ -24,7 +24,8 @@ Here are some ideas to get you started:
 I Worked with Machine Learning before it was known as just:<br>
 "Cool AI stuff"<br>
 I'm a Researcher that likes to POC & prototype stuff<br>
-A new tool or a method even if it breaks production
+Got a new tool or a method? gonna try it out!<br>
+Yes-even if it breaks production
 Also- Cybersecurity excites me!
 
 
