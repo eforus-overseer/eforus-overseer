@@ -1,56 +1,89 @@
-<div align="center">
+<p align="center">
+  <img src="assets/efi-banner.svg" width="100%" alt="Efi Pecani — AI research, useful tools, and a little curiosity." />
+</p>
 
-<img src="welcome_efis_github.gif" alt="Welcome!" width="400"/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/efipecani/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="https://x.com/eforus_overseer">X</a> &nbsp; / &nbsp;
+  <a href="https://github.com/eforus-overseer?tab=repositories">Explore the repositories</a>
+</p>
 
-</div>
+### Hey, I'm Efi. 🖖
 
-<!--
-**Efi-Pecani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm an AI researcher and data engineer. I like turning interesting ideas into working experiments: training agents, investigating how language models fail, building security tools, and making things you can actually interact with.
 
-Here are some ideas to get you started:
+I've been working with machine learning since before everything became “cool AI stuff.” The curiosity stuck. Give me a new method or tool and I'll probably build a proof of concept with it.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**My recurring interests:** language models · reinforcement learning · cybersecurity · data visualization
 
+### A few things I've built
 
-# Greetings 🖖 🥸 I'm Efi!
-I Worked with Machine Learning before it was known as just:<br>
-"Cool AI stuff"<br>
-I'm a Researcher that likes to POC & prototype stuff<br>
-Got a new tool or a method? gonna try it out!<br>
-Yes-even if it breaks production
-Also- Cybersecurity excites me!
+<table>
+  <tr>
+    <td width="42%">
+      <a href="https://eforus-overseer.github.io/photo-studio/">
+        <img src="assets/photo-studio.jpg" width="360" alt="Photo Studio's dark workspace displaying a cheerful brown Labrador puppy" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/eforus-overseer/photo-studio">Photo Studio</a></strong><br />
+      A photography playground with 24 desktop effects, foreground segmentation, and an interactive browser demo.<br /><br />
+      <a href="https://eforus-overseer.github.io/photo-studio/">Try the demo ↗</a> · <a href="https://github.com/eforus-overseer/photo-studio">Source</a><br />
+      <sub>Python · OpenCV · CustomTkinter · Canvas</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="42%">
+      <a href="https://github.com/eforus-overseer/propwash">
+        <img src="assets/propwash.jpg" width="360" alt="Propwash drone simulator flying over the Grand Canyon's satellite terrain" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/eforus-overseer/propwash">PROP//WASH</a></strong><br />
+      FPV flight over real satellite terrain. Quaternion flight physics, race gates, and a whole lot of altitude.<br /><br />
+      <a href="https://github.com/eforus-overseer/propwash">Explore the simulator ↗</a><br />
+      <sub>JavaScript · Three.js · Terrain data</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="42%">
+      <a href="https://github.com/eforus-overseer/iron-tide-submarine">
+        <img src="assets/iron-tide.jpg" width="360" alt="Iron Tide submarine on patrol in a three-dimensional ocean" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://github.com/eforus-overseer/iron-tide-submarine">Iron Tide</a></strong><br />
+      A Silent Hunter–inspired submarine game. Hunt convoys, line up torpedoes, and evade destroyers in the browser.<br /><br />
+      <a href="https://github.com/eforus-overseer/iron-tide-submarine">Dive into the project ↗</a><br />
+      <sub>JavaScript · Three.js · Naval simulation</sub>
+    </td>
+  </tr>
+</table>
 
+### At the research bench
 
-## 🌐 Socials:
-[![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@eforus_overseer) 
+- **[Hallucination Sketches](https://github.com/eforus-overseer/llm-hallucination-sketches)** · Streaming LLM hallucination detection with compact sketch structures.
+- **[Literary Data Poisoning](https://github.com/eforus-overseer/Literary-LLM-Knowledge-Data-Poisoning)** · Fine-tuning, literary style, and what happens when training data changes.
+- **[LunarLander: DQN vs. PPO](https://github.com/eforus-overseer/LunarLander-DQN-vs-PPO)** · Implementing and comparing reinforcement learning agents in PyTorch and Gymnasium.
+- **[Credential Stuffing Detection](https://github.com/eforus-overseer/Credential-Stuffing-Detection-Framework)** · Detecting automated login attacks.
+- **[Octo Browser MCP](https://github.com/eforus-overseer/octobrowser-mcp)** · Browser profile management and automation through MCP.
+- **[Visual Vocabulary](https://github.com/eforus-overseer/visual-vocabulary-skill)** · Choosing the right chart, with a 62-chart Matplotlib gallery.
 
+### Tools I reach for
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=flat&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=flat&logo=nim&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=flat&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Vultr](https://img.shields.io/badge/Vultr-007BFC.svg?style=flat&logo=vultr) ![Jinja](https://img.shields.io/badge/jinja-white.svg?style=flat&logo=jinja&logoColor=black) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=flat&logo=yarn&logoColor=white) ![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=flat&logo=pnpm&logoColor=f69220) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=flat&logo=elasticsearch&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=flat&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=flat&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=flat&logo=scipy&logoColor=%white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=flat&logo=bitbucket&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=flat&logo=playwright&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat&logo=terraform&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat&logo=jira&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=flat&logo=confluence&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=flat&logo=nVIDIA&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=Twilio&logoColor=white)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-%2340B5A4.svg?style=flat&logo=Puppeteer&logoSize=auto&logoColor=black) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=flat&logo=selenium&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=eforus-overseer&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=eforus-overseer&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=eforus-overseer&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+**Models & data** &nbsp; Python · PyTorch · scikit-learn · pandas · NumPy · OpenCV<br />
+**Experiments & interfaces** &nbsp; Gymnasium · Matplotlib · Plotly · JavaScript · TypeScript · Three.js<br />
+**Automation & infrastructure** &nbsp; Playwright · Docker · Git · AWS
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=eforus-overseer&theme=dark&no-frame=false&no-bg=false&margin-w=4)
+<details>
+<summary><strong>A little history: from 2018 to now</strong></summary>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+My original [Photo Editor GUI](https://github.com/eforus-overseer/Photo-Editor-GUI) was written entirely by hand in 2018, before today's AI coding assistants. It's preserved as a legacy project.
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=eforus-overseer&limit=5&theme=blue_navy&combine_all_yearly_contributions=true)
+[Photo Studio](https://github.com/eforus-overseer/photo-studio) revisits that idea with an AI-assisted development workflow, a redesigned interface, more effects, and segmentation. Same curiosity, new tools. Also, a much cuter Labrador.
+
+</details>
 
 ---
-[![](https://komarev.com/ghpvc/?username=eforus-overseer&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center"><sub>Research it. Build it. See what happens.</sub></p>
