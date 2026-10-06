@@ -87,3 +87,13 @@ My original [Photo Editor GUI](https://github.com/eforus-overseer/Photo-Editor-G
 ---
 
 <p align="center"><sub>Research it. Build it. See what happens.</sub></p>
+
+---
+
+<!-- demo-lab:start -->
+## Explore this project
+
+[Project page & walkthrough](https://eforus-overseer.github.io/demo-lab/projects/eforus-overseer/) — Read an archive walkthrough describing this repository's current state.
+
+[Browse all 40 project pages in Efi's Demo Lab](https://eforus-overseer.github.io/demo-lab/).
+<!-- demo-lab:end -->
