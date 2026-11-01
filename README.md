@@ -102,6 +102,6 @@ My original [Photo Editor GUI](https://github.com/eforus-overseer/Photo-Editor-G
 <!-- codex-pixel-art -->
 ## Pixel art
 
-![Pixel art for eforus-overseer](assets/pixel-art.svg)
+![Cosmonaut reaching toward a constellation of data points](assets/cosmonaut-pixel-art.png)
 
-A small visual signature for this repository.
+An original cosmonaut illustration created for this profile.
