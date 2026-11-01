@@ -97,3 +97,11 @@ My original [Photo Editor GUI](https://github.com/eforus-overseer/Photo-Editor-G
 
 [Browse all 40 project pages in eforus-overseer's Demo Lab](https://eforus-overseer.github.io/demo-lab/).
 <!-- demo-lab:end -->
+
+
+<!-- codex-pixel-art -->
+## Pixel art
+
+![Pixel art for eforus-overseer](assets/pixel-art.svg)
+
+A small visual signature for this repository.
