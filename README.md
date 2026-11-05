@@ -8,7 +8,7 @@
   <a href="https://github.com/eforus-overseer?tab=repositories">Explore the repositories</a>
 </p>
 
-### Hey, I'm eforus-overseer. 🖖
+### Hey, I'm Efi ! 🖖
 
 I'm an AI researcher and data engineer. I like turning interesting ideas into working experiments: training agents, investigating how language models fail, building security tools, and making things you can actually interact with.
 
