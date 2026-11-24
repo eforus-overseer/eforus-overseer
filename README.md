@@ -60,12 +60,231 @@ I've been working with machine learning since before everything became “cool A
   </tr>
 </table>
 
-### At the research bench
+### Academic work
 
-- **[Hallucination Sketches](https://github.com/eforus-overseer/llm-hallucination-sketches)** · Streaming LLM hallucination detection with compact sketch structures.
-- **[Literary Data Poisoning](https://github.com/eforus-overseer/Literary-LLM-Knowledge-Data-Poisoning)** · Fine-tuning, literary style, and what happens when training data changes.
+Reichman University. Security and AI safety, then the retrieval courses beside them.
+
+#### LLM security
+
+Training text, and generated text. What a fine-tune can plant, and what you can catch without keeping the whole stream.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/Literary-LLM-Knowledge-Data-Poisoning">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/Literary-LLM-Knowledge-Data-Poisoning/main/assets/answers-changed-vs-attack-success.png" width="100%" alt="Answers changed vs. attack success">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/Literary-LLM-Knowledge-Data-Poisoning">Unstable Canon</a></strong>
+      &nbsp; <sub>2025 · with Adi Zur</sub>
+      <br>
+      Fine-tunes Llama on novels whose names and places were swapped, then checks whether the model learned the planted fact.
+      <br>
+      <sub>In the four saved runs, 87–89 of 100 answers changed, and the planted phrase appeared in 0–3 of them.</sub>
+      <br>
+      <sub>data poisoning · LoRA · Llama 3.1</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/llm-hallucination-sketches">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/llm-hallucination-sketches/main/experiments/figures/plot1_f1_vs_memory.png" width="100%" alt="F1 vs Memory Budget">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/llm-hallucination-sketches">Hallucination Sketches</a></strong>
+      &nbsp; <sub>2026 · with Guy Hasson</sub>
+      <br>
+      Treats LLM output as a token stream and flags distributional drift with five classic sketches.
+      <br>
+      <sub>F1 = 0.77 using 256 bytes of memory.</sub>
+      <br>
+      <sub>sketches · hallucination · streaming</sub>
+    </td>
+  </tr>
+</table>
+
+#### Attack and fraud detection
+
+Login logs, network flows, and mail that should stay inside the company.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/streaming-attack-detection">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/streaming-attack-detection/main/streaming-attack-detection/detection_comparison.png" width="100%" alt="Detection comparison">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/streaming-attack-detection">Streaming Attack Detection</a></strong>
+      &nbsp; <sub>2026</sub>
+      <br>
+      Classifies UNSW-NB15 flows from sketch features, one 30-second window at a time.
+      <br>
+      <sub>F1 = 0.90 with 146 KB of sketch memory per window. The exact baseline reached F1 = 0.92.</sub>
+      <br>
+      <sub>sketches · UNSW-NB15 · network detection</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/Credential-Stuffing-Detection-Framework">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/Credential-Stuffing-Detection-Framework/main/temporal_attack_patterns.png" width="100%" alt="Temporal Attack Patterns">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/Credential-Stuffing-Detection-Framework">Credential Stuffing</a></strong>
+      &nbsp; <sub>2024</sub>
+      <br>
+      Reads anonymized login logs for the rhythm of automated credential stuffing.
+      <br>
+      <sub>The measured signal the write-up highlights is velocity above 0.02 attempts per second from a single IP.</sub>
+      <br>
+      <sub>credential stuffing · login logs · anomaly detection</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="middle">
+      <a href="https://github.com/eforus-overseer/Enron-DLP-Policy-Enforcement">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/Enron-DLP-Policy-Enforcement/main/Aspose.Words.46bf1cf1-30aa-48db-8a5a-b1f86a348137.009.jpeg" width="277" alt="ROC curve for XGBoost">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/Enron-DLP-Policy-Enforcement">Enron DLP</a></strong>
+      &nbsp; <sub>2024</sub>
+      <br>
+      Flags Enron mail that breaks data-loss rules: a keyword and topic layer, then XGBoost on what the rules allowed.
+      <br>
+      <sub>Grid search brought the XGBoost F1 to 0.5, on 138,512 allowed messages and 16,709 blocked.</sub>
+      <br>
+      <sub>DLP · XGBoost · Enron corpus</sub>
+    </td>
+  </tr>
+</table>
+
+#### Harmful content
+
+Memes, where the harm sits in the picture and the caption together.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/Harmfull-Content-Detection-Classification-BLIP2-OCR-CLIP">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/Harmfull-Content-Detection-Classification-BLIP2-OCR-CLIP/main/assets/project-cover.png" width="100%" alt="Pixel-art cover for Harmfull-Content-Detection-Classification-BLIP2-OCR-CLIP">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/Harmfull-Content-Detection-Classification-BLIP2-OCR-CLIP">BLIP-2, OCR, and CLIP</a></strong>
+      &nbsp; <sub>2025</sub>
+      <br>
+      Compares an OCR plus BLIP-2 reading of a meme with CLIP looking at the image directly.
+      <br>
+      <sub>OCR + BLIP-2 reached F1 0.73 at accuracy 0.58. CLIP was about 3× faster, at F1 0.55 and 0.57.</sub>
+      <br>
+      <sub>BLIP-2 · OCR · CLIP</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/Multimodal-Harmful-Content-Detection-Social-Media-Memes-">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/Multimodal-Harmful-Content-Detection-Social-Media-Memes-/main/results/grpah_preformance_f1.png" width="100%" alt="evaluation_preformance">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/Multimodal-Harmful-Content-Detection-Social-Media-Memes-">Multimodal Meme Detection</a></strong>
+      &nbsp; <sub>2025 · with Stav Cohen</sub>
+      <br>
+      Joins a meme-image CNN and a text classifier through several fusion rules, on the Facebook harmeme set.
+      <br>
+      <sub>Aggressive fusion reached F1 0.514, just above the image model at 0.510.</sub>
+      <br>
+      <sub>memes · fusion · CNN</sub>
+    </td>
+  </tr>
+</table>
+
+#### Retrieval
+
+Find the passage, then answer from it.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/RAG-QA-Wikipedia">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/RAG-QA-Wikipedia/main/assets/project-cover.png" width="100%" alt="Pixel-art cover for RAG-QA-Wikipedia">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/RAG-QA-Wikipedia">Wikipedia RAG</a></strong>
+      &nbsp; <sub>2026 · with Raz Cohen</sub>
+      <br>
+      Answers open-domain questions over Wikipedia with BM25, query likelihood, a cross-encoder rerank, and a short LLM reply that retries when the first answer looks empty.
+      <br>
+      <sub>RAG · BM25 · Wikipedia</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/eforus-overseer/Text-Retrieval-ROBUST04-Ranking">
+        <img src="https://raw.githubusercontent.com/eforus-overseer/Text-Retrieval-ROBUST04-Ranking/main/figures/methods_comparison.png" width="100%" alt="Methods comparison">
+      </a>
+      <br>
+      <strong><a href="https://github.com/eforus-overseer/Text-Retrieval-ROBUST04-Ranking">ROBUST04 Ranking</a></strong>
+      &nbsp; <sub>2026 · with Raz Cohen</sub>
+      <br>
+      Ranks 528,030 news documents with BM25, RM3 expansion, and a cross-encoder on top of query likelihood.
+      <br>
+      <sub>BM25+RM3 reached MAP 0.2713 on the training queries. The cross-encoder beat LambdaMART on the held-out set.</sub>
+      <br>
+      <sub>ranking · BM25 · cross-encoder</sub>
+    </td>
+  </tr>
+</table>
+
+### Open security tooling
+
+Smaller, and open. Tools and labs, rather than course reports.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/zeroth-index">Zeroth Index</a></strong>
+      <br>
+      A field guide to prompt-injection patterns: 27 intents, 70 techniques, 63 evasions, and 12 inputs.
+      <br>
+      <sub><a href="https://eforus-overseer.github.io/zeroth-index/">Open the index</a> · prompt injection · taxonomy</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/caterpillar">Caterpillar</a></strong>
+      <br>
+      Scans AI agent skill files for malicious patterns before install. A fork of <a href="https://github.com/alice-dot-io/caterpillar">alice-dot-io/caterpillar</a>.
+      <br>
+      <sub>agent skills · scanner</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/open-model-backdoor-lab">Open Model Backdoor Lab</a></strong>
+      <br>
+      An offline harness for behavioral backdoor checks, with a harmless toy benchmark and HTML reports.
+      <br>
+      <sub>backdoors · open-weight models · reproducibility</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/agent-injection-arena">Agent Injection Arena</a></strong>
+      <br>
+      Offline fixtures for indirect prompt injection and the tool actions an agent should refuse.
+      <br>
+      <sub>agents · prompt injection · benchmark seed</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/rag-poisoning-lab">RAG Poisoning Lab</a></strong>
+      <br>
+      A local lab for a synthetic corpus edit, and how it moves retrieval, citations, and answers.
+      <br>
+      <sub>RAG · data poisoning · provenance</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/eforus-overseer/llm-safety-projects">LLM Safety Projects</a></strong>
+      <br>
+      An index of twelve open safety repos. Eleven are scoped seeds; the backdoor lab above is the one with a runnable demo.
+      <br>
+      <sub>llm safety · collaboration · project seeds</sub>
+    </td>
+  </tr>
+</table>
+
+### Also on the bench
+
 - **[LunarLander: DQN vs. PPO](https://github.com/eforus-overseer/LunarLander-DQN-vs-PPO)** · Implementing and comparing reinforcement learning agents in PyTorch and Gymnasium.
-- **[Credential Stuffing Detection](https://github.com/eforus-overseer/Credential-Stuffing-Detection-Framework)** · Detecting automated login attacks.
 - **[Octo Browser MCP](https://github.com/eforus-overseer/octobrowser-mcp)** · Browser profile management and automation through MCP.
 - **[Visual Vocabulary](https://github.com/eforus-overseer/visual-vocabulary-skill)** · Choosing the right chart, with a 62-chart Matplotlib gallery.
 
